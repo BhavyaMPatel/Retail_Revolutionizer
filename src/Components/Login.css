@@ -13,7 +13,7 @@ form {
   padding: 20px;
   background-color: #fff;
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 7px 5px rgba(0, 0, 0, 0.1);
   border: 1px solid #ddd;
   margin-top: 100px;
 }
@@ -45,7 +45,7 @@ h1 {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: -1px;
+  right: 3px;
   font-size: 1.2rem;
   color: #888;
 }

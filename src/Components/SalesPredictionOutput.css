@@ -1,0 +1,46 @@
+/* 
+  .product-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-name {
+    font-size: small;
+    color: red;
+    margin-right: 10px;
+  }
+  
+  .new-values {
+    color: green;
+  }
+
+*/
+
+.sales-prediction-output h2 {
+    color: black; /* Heading color */
+  }
+  
+  .sales-prediction-output table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .sales-prediction-output th,
+  .sales-prediction-output td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .sales-prediction-output th {
+    color: black; /* Heading color */
+  }
+  
+  .sales-prediction-output td {
+    color: red; /* Product name color */
+  }
+
+  .sales-prediction-output .new-values {
+    /* New values color */
+    color: green;
+  }

@@ -1,47 +1,80 @@
 .menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 120px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    margin-top: 100px;
-  }
-  
-  h1 {
-    color: #333;
-  }
-  
-  .file-input {
-    margin-top: 20px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  input[type="file"] {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-  }
-  
-  button {
-    margin-top: 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 12px;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
+  position: relative; /* Set position to relative */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px;
+  background-color: #fefefe;
+  border-radius: 12px;
+  box-shadow: 1px 1px 7px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 140px;
+}
+
+h1 {
+  color: #333;
+}
+
+.file-input {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="file"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: rgb(183, 4, 4);
+}
+
+/* Popup Modal Styles */
+.popup {
+  position: absolute; /* Set position to absolute */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #fefefe;
+  padding: 80px;
+  border-radius: 8px;
+  /* Maintain the same size as the menu */
+  width: 100%;
+  max-width: 400px; /* Adjust as needed */
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
