@@ -52,7 +52,7 @@ button:hover {
 
 /* Popup Modal Styles */
 .popup {
-  position: absolute; /* Set position to absolute */
+  position: absolute; /* Change position to fixed */
   top: 0;
   left: 0;
   width: 100%;
@@ -64,11 +64,12 @@ button:hover {
 
 .popup-content {
   background-color: #fefefe;
-  padding: 80px;
+  padding: 20px; /* Reduce padding for better visibility of scroll bar */
   border-radius: 8px;
-  /* Maintain the same size as the menu */
-  width: 100%;
-  max-width: 400px; /* Adjust as needed */
+  max-width: 90%; 
+  max-height: 90%; 
+  overflow: auto;
+  position: relative;
 }
 
 .close {
@@ -76,5 +77,10 @@ button:hover {
   top: 10px;
   right: 10px;
   cursor: pointer;
+  color: black;
+  transition: color 0.3s ease; 
 }
 
+.close:hover{
+  color: red;
+}
