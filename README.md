@@ -26,6 +26,10 @@ To run this project locally, follow these steps:
 
 2. Install dependencies:
 - cd retail-revolutionizer
-- pip install -r requirements.txt
+- npm start
 
-3. You are good to go 🥳
+## ScreenShots
+![Capture](https://github.com/Dhruvpandey08/Retail_Revolutionizer/assets/87525399/b1ac8196-82c7-474e-a97d-46b307c0945f)
+![Capture1](https://github.com/Dhruvpandey08/Retail_Revolutionizer/assets/87525399/7a1f720a-6cd1-4320-8597-153a8c7da77f)
+![Capture2](https://github.com/Dhruvpandey08/Retail_Revolutionizer/assets/87525399/16de4579-9ad3-4b6e-a261-bd8fa31d065c)
+
