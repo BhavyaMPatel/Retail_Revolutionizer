@@ -11,10 +11,10 @@ Retail Revolutionizer is a web application designed to address the challenges fa
 
 ## Technologies Used
 
-- Backend: Python, Flask framework
-- Frontend: HTML, CSS, JavaScript
+- Backend: Python, Flask framework and Fast Api
+- Frontend: HTML, CSS, JavaScript, Reactjs
 - Database: Hardcoded (for demo purposes; can be scaled to other databases like MySQL, PostgreSQL)
-- Machine Learning: Scikit-learn (for predictive modeling)
+- Machine Learning: Scikit-learn (for predictive modeling), LSTM 
 
 ## Getting Started
 
